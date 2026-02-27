@@ -333,8 +333,6 @@ def main():
 
             if DiSimNet == f"{DiSimNet}":
                 disease_SNP_file = os.path.expanduser(f"~/Data/GWAS/CAUSALdb/Chr_{chr}_Assoc.txt_BinaryInteraction.csv")
-            else:
-                disease_SNP_file = os.path.expanduser(f"../Data/SNP2Disease_HMDD_MeSHUI_final.csv")
             
             base_name_disease = os.path.splitext(os.path.basename(disease_embeddings_file))[0]
             base_name_SNP = os.path.splitext(os.path.basename(SNP_embeddings_file))[0]
