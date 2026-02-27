@@ -8,8 +8,7 @@
 ## Experiments
 - **Generate Embeddings**
   - *generate_embeddings_for_DiNet.py*: Generate embeddings for diseases from disease similarity.
-  - *embed_Enh_models_DNABERT_PCA.py*: Generate embeddings for enhancers from their sequences. Those embeddings were used as initial features
-  - *generate_embeddings_for_EnhNet.py*: Generate embeddings for enhancers from the enhancer network (with the sequence-based initial features).
+  - *generate_embeddings_for_SNPNet_AllChrs.py*: Generate embeddings for SNPs from per-chromosome SNP LD networks.
  
 - **Evaluate**:
   - *evaluate.py*: For various combinations of disease and enhancer embeddings, embedding sizes, and epochs
